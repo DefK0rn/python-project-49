@@ -15,4 +15,4 @@
 [![asciicast](https://asciinema.org/a/D2RgsRlpEvkj7pfT.svg)](https://asciinema.org/a/D2RgsRlpEvkj7pfT)
 
 ### brain-calc
-[![asciicast](https://asciinema.org/a/XzSObvL3sWYf048W.svg)](https://asciinema.org/a/XzSObvL3sWYf048W)
+[![asciicast](https://asciinema.org/a/8MwOarquIvOe0vdL.svg)](https://asciinema.org/a/8MwOarquIvOe0vdL)
