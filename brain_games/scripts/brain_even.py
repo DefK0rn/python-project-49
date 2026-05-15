@@ -1,4 +1,5 @@
-from brain_games.even import check_even, welcome_user
+from brain_games.engine import welcome_user
+from brain_games.games.even import check_even
 
 
 def main():
