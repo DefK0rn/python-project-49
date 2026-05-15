@@ -2,7 +2,7 @@ import random
 
 import prompt
 
-MAX_ITER = 3
+MAX_STEP = 3
 SUPPORTED_OPERATIONS = ['+', '-', '*']
 
 
@@ -28,9 +28,9 @@ def get_result(number1, operation, number2):
 
 def check_calc(name):
     print('What is the result of the expression?')
-    iter = 1
+    step = 1
 
-    while iter <= MAX_ITER:
+    while step <= MAX_STEP:
         number1 = random.randint(1, 100)
         number2 = random.randint(1, 100)
         operation = random.choice(SUPPORTED_OPERATIONS)
@@ -45,6 +45,6 @@ def check_calc(name):
         else:
             print('Correct!')
 
-        iter += 1
+        step += 1
 
     right_answer(name)

@@ -2,7 +2,7 @@ import random
 
 import prompt
 
-MAX_ITER = 3
+MAX_STEP = 3
 ANSWERS = {
     True: 'yes',
     False: 'no'
@@ -25,20 +25,20 @@ def is_even(number):
 
 def check_even(name):
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    iter = 1
+    step = 1
 
-    while iter <= MAX_ITER:
+    while step <= MAX_STEP:
         number = random.randint(1, 100)
 
         print(f"Question: {number}")
         answer = prompt.string('Your answer: ')
         correct_answer = ANSWERS.get(is_even(number))
 
-        if not answer == correct_answer:
+        if answer != correct_answer:
             return wrong_answer(name, answer, correct_answer)
         else:
             print('Correct!')
 
-        iter += 1
+        step += 1
 
     right_answer(name)
