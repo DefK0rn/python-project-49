@@ -40,7 +40,7 @@ def check_calc(name):
         answer = prompt.integer('Your answer: ')
         correct_answer = get_result(number1, operation, number2)
 
-        if not answer == get_result(number1, operation, number2):
+        if answer != get_result(number1, operation, number2):
             return wrong_answer(name, answer, correct_answer)
         else:
             print('Correct!')
