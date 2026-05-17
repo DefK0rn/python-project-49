@@ -1,7 +1,8 @@
 [project]
 name = "hexlet-code"
 version = "0.1.0"
-description = "Add your description here"
+description = "Project consists of small games. Brain-games makes you fun and happy."
+authors = "Vladimir Kirsanov (vladimirkirs@bk.ru)"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
