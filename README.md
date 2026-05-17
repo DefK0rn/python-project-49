@@ -12,12 +12,17 @@
 ## Description
 This is a small package with some small games. To run the games you need to install package hexlet_code-0.1.0-py3-none-any.whl.
 The user has three attemptes. If all of them are correct then the user wins. If he or she make at least ont mistake then the user loses.
+
 You can try your hand with time games:
-**brian-calc** to guess the result of the arithmetic operation with two integer numbers. The game supports '*', '+', '-'.
-**brain-even** to guess if the number is even.
-**brain-gcd** to guess the greatest common divisor of a number.
-**brain-progression** to guess the number of integer arithmetic progression.
-**brain-prime** to guess if the number is prime.
+
+| game                  | description                                                                                               |
+|-----------------------|-----------------------------------------------------------------------------------------------------------|
+| **brian-calc**        | to guess the result of the arithmetic operation with two integer numbers. The game supports '*', '+', '-'.|
+| **brain-even**        | to guess if the number is even.                                                                           |
+| **brain-gcd**         | to guess the greatest common divisor of a number.                                                         |
+| **brain-progression** | to guess the number of integer arithmetic progression.                                                    |
+| **brain-prime**       | to guess if the number is prime.                                                                          |
+
 Here are the examples below.
 
 ## Examples
