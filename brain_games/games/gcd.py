@@ -13,7 +13,7 @@ def get_result(number1, number2):
 
 
 def check_gcd(name):
-    print('Find the greatest common divisor of given numbers.?')
+    print('Find the greatest common divisor of given numbers?')
     step = 1
 
     while step <= MAX_STEP:
