@@ -2,18 +2,10 @@ import random
 
 import prompt
 
+from brain_games.engine import right_answer, wrong_answer
+
 MAX_STEP = 3
 SUPPORTED_OPERATIONS = ['+', '-', '*']
-
-
-def wrong_answer(name, answer, correct_answer):
-    print(f"'{answer}' is wrong answer ;(.", end=" ")
-    print(f"Correct answer was '{correct_answer}'.")
-    print(f"Let's try again, {name}!")
-
-
-def right_answer(name):
-    print(f'Congratulations, {name}!')
 
 
 def get_result(number1, operation, number2):
@@ -40,7 +32,7 @@ def check_calc(name):
         answer = prompt.integer('Your answer: ')
         correct_answer = get_result(number1, operation, number2)
 
-        if answer != get_result(number1, operation, number2):
+        if answer != correct_answer:
             return wrong_answer(name, answer, correct_answer)
         else:
             print('Correct!')

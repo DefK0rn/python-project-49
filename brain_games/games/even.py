@@ -2,21 +2,13 @@ import random
 
 import prompt
 
+from brain_games.engine import right_answer, wrong_answer
+
 MAX_STEP = 3
 ANSWERS = {
     True: 'yes',
     False: 'no'
 }
-
-
-def wrong_answer(name, answer, correct_answer):
-    print(f"'{answer}' is wrong answer ;(.", end=" ")
-    print(f"Correct answer was '{correct_answer}'.")
-    print(f"Let's try again, {name}!")
-
-
-def right_answer(name):
-    print(f'Congratulations, {name}!')
 
 
 def is_even(number):
